@@ -1,0 +1,1003 @@
+2025-09-26 20:19:30,890 - root - INFO - Starting market maker with arguments: Namespace(symbol='asterusdt')
+2025-09-26 20:19:30,891 - root - INFO - Sending initial cancel all orders for asterusdt to ensure a clean slate.
+2025-09-26 20:19:31,629 - root - INFO - Fetching initial account balance...
+2025-09-26 20:19:31,629 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 20:19:31,877 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 20:19:31,877 - InitialBalance - INFO - Initial USDT balance: 0.0
+2025-09-26 20:19:31,877 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 20:19:31,877 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=0.0000, USDC=0.0000, Total=$0.0000
+2025-09-26 20:19:31,877 - root - INFO - Checking for existing position for asterusdt...
+2025-09-26 20:19:32,554 - root - INFO - No significant existing long position found.
+2025-09-26 20:19:32,554 - root - INFO - Attempting to set leverage for asterusdt to 1x.
+2025-09-26 20:19:32,800 - root - INFO - Successfully set leverage for asterusdt to 1x.
+2025-09-26 20:19:32,800 - root - INFO - Starting in default BUY mode.
+2025-09-26 20:19:32,800 - MarketMakerLoop - INFO - Fetching trading rules for asterusdt...
+2025-09-26 20:19:32,801 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 20:19:32,803 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 20:19:33,494 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 20:19:33,495 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 20:19:33,504 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 20:19:33,505 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 20:19:33,505 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 20:19:33,505 - root - INFO - Performing final cleanup: Cancelling all orders for asterusdt.
+2025-09-26 20:19:34,202 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 20:50:00,122 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 20:50:00,124 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 20:50:00,412 - root - INFO - Fetching initial account balance...
+2025-09-26 20:50:00,412 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 20:50:00,656 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 20:50:00,656 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 20:50:00,656 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 20:50:00,656 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 20:50:00,656 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 20:50:00,894 - root - INFO - No significant existing long position found.
+2025-09-26 20:50:00,894 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 20:50:01,568 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 20:50:01,569 - root - INFO - Starting in default BUY mode.
+2025-09-26 20:50:01,569 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 20:50:01,569 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 20:50:01,571 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 20:50:01,855 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 20:50:01,855 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 20:50:02,257 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 20:50:02,257 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 20:50:02,572 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 20:50:02,854 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 20:50:08,172 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:08,172 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.43601380, price=2.10260820, reduce_only=False
+2025-09-26 20:50:08,172 - MarketMakerLoop - INFO - Adjusted order: price=2.1026, quantity=9.43
+2025-09-26 20:50:08,172 - MarketMakerLoop - INFO - Placing BUY order: 9.43 ASTERUSDT @ 2.1026 (-0.6004% from mid-price)
+2025-09-26 20:50:08,172 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1026, quantity=9.43, side=BUY, reduceOnly=False
+2025-09-26 20:50:08,849 - MarketMakerLoop - INFO - Order placed successfully: ID=181744663
+2025-09-26 20:50:13,850 - MarketMakerLoop - INFO - Order 181744663 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:15,541 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:15,541 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.43623685, price=2.10255850, reduce_only=False
+2025-09-26 20:50:15,541 - MarketMakerLoop - INFO - Adjusted order: price=2.1026, quantity=9.43
+2025-09-26 20:50:15,541 - MarketMakerLoop - INFO - Placing BUY order: 9.43 ASTERUSDT @ 2.1026 (-0.5980% from mid-price)
+2025-09-26 20:50:15,541 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1026, quantity=9.43, side=BUY, reduceOnly=False
+2025-09-26 20:50:16,221 - MarketMakerLoop - INFO - Order placed successfully: ID=181748603
+2025-09-26 20:50:21,223 - MarketMakerLoop - INFO - Order 181748603 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:23,353 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:23,353 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.43155507, price=2.10360220, reduce_only=False
+2025-09-26 20:50:23,353 - MarketMakerLoop - INFO - Adjusted order: price=2.1036, quantity=9.43
+2025-09-26 20:50:23,353 - MarketMakerLoop - INFO - Placing BUY order: 9.43 ASTERUSDT @ 2.1036 (-0.6001% from mid-price)
+2025-09-26 20:50:23,353 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1036, quantity=9.43, side=BUY, reduceOnly=False
+2025-09-26 20:50:24,034 - MarketMakerLoop - INFO - Order placed successfully: ID=181752308
+2025-09-26 20:50:29,035 - MarketMakerLoop - INFO - Order 181752308 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:31,165 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:31,165 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.43222361, price=2.10345310, reduce_only=False
+2025-09-26 20:50:31,165 - MarketMakerLoop - INFO - Adjusted order: price=2.1035, quantity=9.43
+2025-09-26 20:50:31,165 - MarketMakerLoop - INFO - Placing BUY order: 9.43 ASTERUSDT @ 2.1035 (-0.5978% from mid-price)
+2025-09-26 20:50:31,165 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1035, quantity=9.43, side=BUY, reduceOnly=False
+2025-09-26 20:50:31,851 - MarketMakerLoop - INFO - Order placed successfully: ID=181755069
+2025-09-26 20:50:36,852 - MarketMakerLoop - INFO - Order 181755069 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:38,558 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:38,559 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.42176068, price=2.10578900, reduce_only=False
+2025-09-26 20:50:38,559 - MarketMakerLoop - INFO - Adjusted order: price=2.1058, quantity=9.42
+2025-09-26 20:50:38,559 - MarketMakerLoop - INFO - Placing BUY order: 9.42 ASTERUSDT @ 2.1058 (-0.5995% from mid-price)
+2025-09-26 20:50:38,559 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1058, quantity=9.42, side=BUY, reduceOnly=False
+2025-09-26 20:50:39,244 - MarketMakerLoop - INFO - Order placed successfully: ID=181757892
+2025-09-26 20:50:44,245 - MarketMakerLoop - INFO - Order 181757892 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:46,385 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:46,385 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.41265238, price=2.10782670, reduce_only=False
+2025-09-26 20:50:46,398 - MarketMakerLoop - INFO - Adjusted order: price=2.1078, quantity=9.41
+2025-09-26 20:50:46,398 - MarketMakerLoop - INFO - Placing BUY order: 9.41 ASTERUSDT @ 2.1078 (-0.6013% from mid-price)
+2025-09-26 20:50:46,398 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1078, quantity=9.41, side=BUY, reduceOnly=False
+2025-09-26 20:50:47,072 - MarketMakerLoop - INFO - Order placed successfully: ID=181761103
+2025-09-26 20:50:52,073 - MarketMakerLoop - INFO - Order 181761103 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:50:53,769 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:50:53,770 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.40533409, price=2.10946680, reduce_only=False
+2025-09-26 20:50:53,770 - MarketMakerLoop - INFO - Adjusted order: price=2.1095, quantity=9.40
+2025-09-26 20:50:53,770 - MarketMakerLoop - INFO - Placing BUY order: 9.40 ASTERUSDT @ 2.1095 (-0.5984% from mid-price)
+2025-09-26 20:50:53,770 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1095, quantity=9.40, side=BUY, reduceOnly=False
+2025-09-26 20:50:54,013 - MarketMakerLoop - INFO - Order placed successfully: ID=181763826
+2025-09-26 20:50:59,015 - MarketMakerLoop - INFO - Order 181763826 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:51:00,721 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:51:00,721 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.39935485, price=2.11080870, reduce_only=False
+2025-09-26 20:51:00,722 - MarketMakerLoop - INFO - Adjusted order: price=2.1108, quantity=9.39
+2025-09-26 20:51:00,722 - MarketMakerLoop - INFO - Placing BUY order: 9.39 ASTERUSDT @ 2.1108 (-0.6004% from mid-price)
+2025-09-26 20:51:00,722 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1108, quantity=9.39, side=BUY, reduceOnly=False
+2025-09-26 20:51:00,967 - MarketMakerLoop - INFO - Order placed successfully: ID=181767030
+2025-09-26 20:51:01,572 - BalanceReporter - INFO - Account Balance: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 20:51:01,572 - PriceReporter - INFO - ASTERUSDT | Mid-Price: $2.1240 | Bid-Ask Spread: 0.019% | Bid: $2.1238 | Ask: $2.1242 | Balance: $99.80
+2025-09-26 20:51:05,968 - MarketMakerLoop - INFO - Order 181767030 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:51:07,675 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:51:07,675 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.43512172, price=2.10280700, reduce_only=False
+2025-09-26 20:51:07,675 - MarketMakerLoop - INFO - Adjusted order: price=2.1028, quantity=9.43
+2025-09-26 20:51:07,675 - MarketMakerLoop - INFO - Placing BUY order: 9.43 ASTERUSDT @ 2.1028 (-0.6003% from mid-price)
+2025-09-26 20:51:07,676 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1028, quantity=9.43, side=BUY, reduceOnly=False
+2025-09-26 20:51:08,358 - MarketMakerLoop - INFO - Order placed successfully: ID=181771552
+2025-09-26 20:51:13,359 - MarketMakerLoop - INFO - Order 181771552 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:51:15,490 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:51:15,490 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.44963901, price=2.09957650, reduce_only=False
+2025-09-26 20:51:15,490 - MarketMakerLoop - INFO - Adjusted order: price=2.0996, quantity=9.44
+2025-09-26 20:51:15,490 - MarketMakerLoop - INFO - Placing BUY order: 9.44 ASTERUSDT @ 2.0996 (-0.5989% from mid-price)
+2025-09-26 20:51:15,490 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0996, quantity=9.44, side=BUY, reduceOnly=False
+2025-09-26 20:51:15,734 - MarketMakerLoop - INFO - Order placed successfully: ID=181775505
+2025-09-26 20:51:20,735 - MarketMakerLoop - INFO - Order 181775505 not filled within 5.0s. Cancelling and refreshing.
+2025-09-26 20:51:22,433 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:51:22,434 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45478660, price=2.09843340, reduce_only=False
+2025-09-26 20:51:22,434 - MarketMakerLoop - INFO - Adjusted order: price=2.0984, quantity=9.45
+2025-09-26 20:51:22,434 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0984 (-0.6016% from mid-price)
+2025-09-26 20:51:22,434 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0984, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:51:23,117 - MarketMakerLoop - INFO - Order placed successfully: ID=181777974
+2025-09-26 20:51:27,525 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 20:51:27,603 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 20:51:27,842 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 20:51:27,842 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 20:51:27,842 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 20:51:28,558 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 20:57:26,985 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 20:57:26,986 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 20:57:27,274 - root - INFO - Fetching initial account balance...
+2025-09-26 20:57:27,274 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 20:57:27,950 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 20:57:27,950 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 20:57:27,950 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 20:57:27,950 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 20:57:27,950 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 20:57:28,189 - root - INFO - No significant existing long position found.
+2025-09-26 20:57:28,189 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 20:57:28,866 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 20:57:28,866 - root - INFO - Starting in default BUY mode.
+2025-09-26 20:57:28,872 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 20:57:28,872 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 20:57:28,874 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 20:57:29,549 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 20:57:29,549 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 20:57:29,568 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 20:57:29,568 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 20:57:29,857 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 20:57:30,552 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 20:57:35,459 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:35,460 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45411486, price=2.09858250, reduce_only=False
+2025-09-26 20:57:35,460 - MarketMakerLoop - INFO - Adjusted order: price=2.0986, quantity=9.45
+2025-09-26 20:57:35,460 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0986 (-0.5992% from mid-price)
+2025-09-26 20:57:35,460 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0986, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:57:36,136 - MarketMakerLoop - INFO - Order placed successfully: ID=181963440
+2025-09-26 20:57:37,137 - MarketMakerLoop - INFO - Order 181963440 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:38,833 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:38,833 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45478660, price=2.09843340, reduce_only=False
+2025-09-26 20:57:38,833 - MarketMakerLoop - INFO - Adjusted order: price=2.0984, quantity=9.45
+2025-09-26 20:57:38,834 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0984 (-0.6016% from mid-price)
+2025-09-26 20:57:38,834 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0984, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:57:39,512 - MarketMakerLoop - INFO - Order placed successfully: ID=181965622
+2025-09-26 20:57:40,513 - MarketMakerLoop - INFO - Order 181965622 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:41,773 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:41,773 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.46218209, price=2.09679330, reduce_only=False
+2025-09-26 20:57:41,774 - MarketMakerLoop - INFO - Adjusted order: price=2.0968, quantity=9.46
+2025-09-26 20:57:41,774 - MarketMakerLoop - INFO - Placing BUY order: 9.46 ASTERUSDT @ 2.0968 (-0.5997% from mid-price)
+2025-09-26 20:57:41,774 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0968, quantity=9.46, side=BUY, reduceOnly=False
+2025-09-26 20:57:42,015 - MarketMakerLoop - INFO - Order placed successfully: ID=181966946
+2025-09-26 20:57:43,015 - MarketMakerLoop - INFO - Order 181966946 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:44,274 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:44,274 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.46442542, price=2.09629630, reduce_only=False
+2025-09-26 20:57:44,274 - MarketMakerLoop - INFO - Adjusted order: price=2.0963, quantity=9.46
+2025-09-26 20:57:44,274 - MarketMakerLoop - INFO - Placing BUY order: 9.46 ASTERUSDT @ 2.0963 (-0.5998% from mid-price)
+2025-09-26 20:57:44,274 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0963, quantity=9.46, side=BUY, reduceOnly=False
+2025-09-26 20:57:44,521 - MarketMakerLoop - INFO - Order placed successfully: ID=181968383
+2025-09-26 20:57:45,521 - MarketMakerLoop - INFO - Order 181968383 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:46,781 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:46,781 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.46779243, price=2.09555080, reduce_only=False
+2025-09-26 20:57:46,781 - MarketMakerLoop - INFO - Adjusted order: price=2.0956, quantity=9.46
+2025-09-26 20:57:46,781 - MarketMakerLoop - INFO - Placing BUY order: 9.46 ASTERUSDT @ 2.0956 (-0.5977% from mid-price)
+2025-09-26 20:57:46,781 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0956, quantity=9.46, side=BUY, reduceOnly=False
+2025-09-26 20:57:47,460 - MarketMakerLoop - INFO - Order placed successfully: ID=181969551
+2025-09-26 20:57:48,463 - MarketMakerLoop - INFO - Order 181969551 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:49,728 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:49,729 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.47161127, price=2.09470590, reduce_only=False
+2025-09-26 20:57:49,729 - MarketMakerLoop - INFO - Adjusted order: price=2.0947, quantity=9.47
+2025-09-26 20:57:49,729 - MarketMakerLoop - INFO - Placing BUY order: 9.47 ASTERUSDT @ 2.0947 (-0.6003% from mid-price)
+2025-09-26 20:57:49,729 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0947, quantity=9.47, side=BUY, reduceOnly=False
+2025-09-26 20:57:49,971 - MarketMakerLoop - INFO - Order placed successfully: ID=181970742
+2025-09-26 20:57:50,972 - MarketMakerLoop - INFO - Order 181970742 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:52,677 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:52,677 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.47700781, price=2.09351310, reduce_only=False
+2025-09-26 20:57:52,677 - MarketMakerLoop - INFO - Adjusted order: price=2.0935, quantity=9.47
+2025-09-26 20:57:52,677 - MarketMakerLoop - INFO - Placing BUY order: 9.47 ASTERUSDT @ 2.0935 (-0.6006% from mid-price)
+2025-09-26 20:57:52,677 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0935, quantity=9.47, side=BUY, reduceOnly=False
+2025-09-26 20:57:53,356 - MarketMakerLoop - INFO - Order placed successfully: ID=181972940
+2025-09-26 20:57:54,357 - MarketMakerLoop - INFO - Order 181972940 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:56,054 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:56,054 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.47228550, price=2.09455680, reduce_only=False
+2025-09-26 20:57:56,054 - MarketMakerLoop - INFO - Adjusted order: price=2.0946, quantity=9.47
+2025-09-26 20:57:56,054 - MarketMakerLoop - INFO - Placing BUY order: 9.47 ASTERUSDT @ 2.0946 (-0.5979% from mid-price)
+2025-09-26 20:57:56,054 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0946, quantity=9.47, side=BUY, reduceOnly=False
+2025-09-26 20:57:56,298 - MarketMakerLoop - INFO - Order placed successfully: ID=181974758
+2025-09-26 20:57:57,300 - MarketMakerLoop - INFO - Order 181974758 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:57:59,003 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:57:59,003 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.46577194, price=2.09599810, reduce_only=False
+2025-09-26 20:57:59,003 - MarketMakerLoop - INFO - Adjusted order: price=2.0960, quantity=9.46
+2025-09-26 20:57:59,003 - MarketMakerLoop - INFO - Placing BUY order: 9.46 ASTERUSDT @ 2.0960 (-0.5999% from mid-price)
+2025-09-26 20:57:59,003 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0960, quantity=9.46, side=BUY, reduceOnly=False
+2025-09-26 20:57:59,679 - MarketMakerLoop - INFO - Order placed successfully: ID=181976411
+2025-09-26 20:58:00,680 - MarketMakerLoop - INFO - Order 181976411 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:58:02,380 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:02,380 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45949148, price=2.09738970, reduce_only=False
+2025-09-26 20:58:02,380 - MarketMakerLoop - INFO - Adjusted order: price=2.0974, quantity=9.45
+2025-09-26 20:58:02,380 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0974 (-0.5995% from mid-price)
+2025-09-26 20:58:02,380 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0974, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:03,065 - MarketMakerLoop - INFO - Order placed successfully: ID=181978534
+2025-09-26 20:58:04,065 - MarketMakerLoop - INFO - Order 181978534 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:58:05,770 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:05,770 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45501054, price=2.09838370, reduce_only=False
+2025-09-26 20:58:05,770 - MarketMakerLoop - INFO - Adjusted order: price=2.0984, quantity=9.45
+2025-09-26 20:58:05,770 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0984 (-0.5992% from mid-price)
+2025-09-26 20:58:05,770 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0984, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:06,453 - MarketMakerLoop - INFO - Order placed successfully: ID=181979885
+2025-09-26 20:58:07,456 - MarketMakerLoop - INFO - Order 181979885 not filled within 1.0s. Cancelling and refreshing.
+2025-09-26 20:58:08,357 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 20:58:08,396 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 20:58:08,632 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 20:58:08,632 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 20:58:08,632 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 20:58:09,329 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 20:58:29,071 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 20:58:29,072 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 20:58:29,799 - root - INFO - Fetching initial account balance...
+2025-09-26 20:58:29,799 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 20:58:30,476 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 20:58:30,476 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 20:58:30,477 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 20:58:30,477 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 20:58:30,477 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 20:58:31,153 - root - INFO - No significant existing long position found.
+2025-09-26 20:58:31,154 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 20:58:31,393 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 20:58:31,393 - root - INFO - Starting in default BUY mode.
+2025-09-26 20:58:31,393 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 20:58:31,393 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 20:58:31,395 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 20:58:31,671 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 20:58:31,671 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 20:58:32,073 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 20:58:32,073 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 20:58:32,374 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 20:58:32,635 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 20:58:37,984 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:37,984 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45904320, price=2.09748910, reduce_only=False
+2025-09-26 20:58:37,984 - MarketMakerLoop - INFO - Adjusted order: price=2.0975, quantity=9.45
+2025-09-26 20:58:37,984 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0975 (-0.5995% from mid-price)
+2025-09-26 20:58:37,984 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0975, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:38,661 - MarketMakerLoop - INFO - Order placed successfully: ID=181994662
+2025-09-26 20:58:39,163 - MarketMakerLoop - INFO - Order 181994662 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:40,428 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:40,428 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45142884, price=2.09917890, reduce_only=False
+2025-09-26 20:58:40,428 - MarketMakerLoop - INFO - Adjusted order: price=2.0992, quantity=9.45
+2025-09-26 20:58:40,428 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0992 (-0.5990% from mid-price)
+2025-09-26 20:58:40,428 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0992, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:41,109 - MarketMakerLoop - INFO - Order placed successfully: ID=181995983
+2025-09-26 20:58:41,611 - MarketMakerLoop - INFO - Order 181995983 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:42,863 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:42,863 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45008640, price=2.09947710, reduce_only=False
+2025-09-26 20:58:42,863 - MarketMakerLoop - INFO - Adjusted order: price=2.0995, quantity=9.45
+2025-09-26 20:58:42,863 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0995 (-0.5989% from mid-price)
+2025-09-26 20:58:42,863 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0995, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:43,540 - MarketMakerLoop - INFO - Order placed successfully: ID=181996979
+2025-09-26 20:58:44,041 - MarketMakerLoop - INFO - Order 181996979 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:45,306 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:45,306 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.45187641, price=2.09907950, reduce_only=False
+2025-09-26 20:58:45,306 - MarketMakerLoop - INFO - Adjusted order: price=2.0991, quantity=9.45
+2025-09-26 20:58:45,306 - MarketMakerLoop - INFO - Placing BUY order: 9.45 ASTERUSDT @ 2.0991 (-0.5990% from mid-price)
+2025-09-26 20:58:45,306 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0991, quantity=9.45, side=BUY, reduceOnly=False
+2025-09-26 20:58:45,550 - MarketMakerLoop - INFO - Order placed successfully: ID=181997535
+2025-09-26 20:58:46,051 - MarketMakerLoop - INFO - Order 181997535 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:48,187 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:48,188 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.44650844, price=2.10027230, reduce_only=False
+2025-09-26 20:58:48,188 - MarketMakerLoop - INFO - Adjusted order: price=2.1003, quantity=9.44
+2025-09-26 20:58:48,188 - MarketMakerLoop - INFO - Placing BUY order: 9.44 ASTERUSDT @ 2.1003 (-0.5987% from mid-price)
+2025-09-26 20:58:48,188 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1003, quantity=9.44, side=BUY, reduceOnly=False
+2025-09-26 20:58:48,429 - MarketMakerLoop - INFO - Order placed successfully: ID=181998898
+2025-09-26 20:58:48,930 - MarketMakerLoop - INFO - Order 181998898 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:51,064 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:51,064 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.44136985, price=2.10141540, reduce_only=False
+2025-09-26 20:58:51,064 - MarketMakerLoop - INFO - Adjusted order: price=2.1014, quantity=9.44
+2025-09-26 20:58:51,064 - MarketMakerLoop - INFO - Placing BUY order: 9.44 ASTERUSDT @ 2.1014 (-0.6007% from mid-price)
+2025-09-26 20:58:51,064 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1014, quantity=9.44, side=BUY, reduceOnly=False
+2025-09-26 20:58:51,308 - MarketMakerLoop - INFO - Order placed successfully: ID=181999894
+2025-09-26 20:58:51,808 - MarketMakerLoop - INFO - Order 181999894 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:53,075 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:53,075 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.44114656, price=2.10146510, reduce_only=False
+2025-09-26 20:58:53,075 - MarketMakerLoop - INFO - Adjusted order: price=2.1015, quantity=9.44
+2025-09-26 20:58:53,075 - MarketMakerLoop - INFO - Placing BUY order: 9.44 ASTERUSDT @ 2.1015 (-0.5983% from mid-price)
+2025-09-26 20:58:53,075 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1015, quantity=9.44, side=BUY, reduceOnly=False
+2025-09-26 20:58:53,755 - MarketMakerLoop - INFO - Order placed successfully: ID=182000809
+2025-09-26 20:58:54,255 - MarketMakerLoop - INFO - Order 182000809 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:55,957 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 20:58:55,957 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.44293318, price=2.10106750, reduce_only=False
+2025-09-26 20:58:55,957 - MarketMakerLoop - INFO - Adjusted order: price=2.1011, quantity=9.44
+2025-09-26 20:58:55,957 - MarketMakerLoop - INFO - Placing BUY order: 9.44 ASTERUSDT @ 2.1011 (-0.5985% from mid-price)
+2025-09-26 20:58:55,957 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.1011, quantity=9.44, side=BUY, reduceOnly=False
+2025-09-26 20:58:56,639 - MarketMakerLoop - INFO - Order placed successfully: ID=182002110
+2025-09-26 20:58:57,140 - MarketMakerLoop - INFO - Order 182002110 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 20:58:58,493 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 20:58:58,542 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 20:58:58,773 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 20:58:58,773 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 20:58:58,773 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 20:58:59,473 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:00:53,181 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:00:53,182 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:00:53,463 - root - INFO - Fetching initial account balance...
+2025-09-26 21:00:53,463 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:00:53,706 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:00:53,706 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:00:53,706 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:00:53,706 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:00:53,706 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:00:54,384 - root - INFO - No significant existing long position found.
+2025-09-26 21:00:54,384 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:00:55,055 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:00:55,055 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:00:55,055 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:00:55,055 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:00:55,057 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:00:55,728 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:00:55,728 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:00:55,748 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:00:55,748 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:00:56,063 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:00:56,713 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:01:02,086 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:02,086 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.52380952, price=2.08322520, reduce_only=False
+2025-09-26 21:01:02,086 - MarketMakerLoop - INFO - Adjusted order: price=2.0832, quantity=9.52
+2025-09-26 21:01:02,087 - MarketMakerLoop - INFO - Placing BUY order: 9.52 ASTERUSDT @ 2.0832 (-0.6012% from mid-price)
+2025-09-26 21:01:02,087 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0832, quantity=9.52, side=BUY, reduceOnly=False
+2025-09-26 21:01:02,331 - MarketMakerLoop - INFO - Order placed successfully: ID=182056062
+2025-09-26 21:01:02,532 - MarketMakerLoop - INFO - Order 182056062 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:04,678 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:04,678 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55001077, price=2.07750970, reduce_only=False
+2025-09-26 21:01:04,678 - MarketMakerLoop - INFO - Adjusted order: price=2.0775, quantity=9.55
+2025-09-26 21:01:04,678 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0775 (-0.6005% from mid-price)
+2025-09-26 21:01:04,678 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0775, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:01:05,360 - MarketMakerLoop - INFO - Order placed successfully: ID=182057980
+2025-09-26 21:01:05,560 - MarketMakerLoop - INFO - Order 182057980 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:07,285 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:07,285 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.54384623, price=2.07885160, reduce_only=False
+2025-09-26 21:01:07,285 - MarketMakerLoop - INFO - Adjusted order: price=2.0789, quantity=9.54
+2025-09-26 21:01:07,285 - MarketMakerLoop - INFO - Placing BUY order: 9.54 ASTERUSDT @ 2.0789 (-0.5977% from mid-price)
+2025-09-26 21:01:07,285 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0789, quantity=9.54, side=BUY, reduceOnly=False
+2025-09-26 21:01:07,969 - MarketMakerLoop - INFO - Order placed successfully: ID=182059247
+2025-09-26 21:01:08,170 - MarketMakerLoop - INFO - Order 182059247 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:09,440 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:09,440 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.54179315, price=2.07929890, reduce_only=False
+2025-09-26 21:01:09,440 - MarketMakerLoop - INFO - Adjusted order: price=2.0793, quantity=9.54
+2025-09-26 21:01:09,440 - MarketMakerLoop - INFO - Placing BUY order: 9.54 ASTERUSDT @ 2.0793 (-0.5999% from mid-price)
+2025-09-26 21:01:09,440 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0793, quantity=9.54, side=BUY, reduceOnly=False
+2025-09-26 21:01:10,126 - MarketMakerLoop - INFO - Order placed successfully: ID=182060665
+2025-09-26 21:01:10,328 - MarketMakerLoop - INFO - Order 182060665 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:11,592 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:11,592 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55001077, price=2.07750970, reduce_only=False
+2025-09-26 21:01:11,592 - MarketMakerLoop - INFO - Adjusted order: price=2.0775, quantity=9.55
+2025-09-26 21:01:11,592 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0775 (-0.6005% from mid-price)
+2025-09-26 21:01:11,592 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0775, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:01:11,838 - MarketMakerLoop - INFO - Order placed successfully: ID=182061559
+2025-09-26 21:01:12,040 - MarketMakerLoop - INFO - Order 182061559 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:13,304 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:13,304 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.54498721, price=2.07860310, reduce_only=False
+2025-09-26 21:01:13,304 - MarketMakerLoop - INFO - Adjusted order: price=2.0786, quantity=9.54
+2025-09-26 21:01:13,304 - MarketMakerLoop - INFO - Placing BUY order: 9.54 ASTERUSDT @ 2.0786 (-0.6001% from mid-price)
+2025-09-26 21:01:13,304 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0786, quantity=9.54, side=BUY, reduceOnly=False
+2025-09-26 21:01:13,546 - MarketMakerLoop - INFO - Order placed successfully: ID=182062573
+2025-09-26 21:01:13,747 - MarketMakerLoop - INFO - Order 182062573 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:15,016 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:15,016 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.54361806, price=2.07890130, reduce_only=False
+2025-09-26 21:01:15,016 - MarketMakerLoop - INFO - Adjusted order: price=2.0789, quantity=9.54
+2025-09-26 21:01:15,016 - MarketMakerLoop - INFO - Placing BUY order: 9.54 ASTERUSDT @ 2.0789 (-0.6001% from mid-price)
+2025-09-26 21:01:15,016 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0789, quantity=9.54, side=BUY, reduceOnly=False
+2025-09-26 21:01:15,917 - MarketMakerLoop - INFO - Order placed successfully: ID=182063758
+2025-09-26 21:01:16,118 - MarketMakerLoop - INFO - Order 182063758 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:17,812 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:17,812 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55138174, price=2.07721150, reduce_only=False
+2025-09-26 21:01:17,812 - MarketMakerLoop - INFO - Adjusted order: price=2.0772, quantity=9.55
+2025-09-26 21:01:17,812 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0772 (-0.6006% from mid-price)
+2025-09-26 21:01:17,812 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0772, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:01:18,492 - MarketMakerLoop - INFO - Order placed successfully: ID=182065042
+2025-09-26 21:01:18,693 - MarketMakerLoop - INFO - Order 182065042 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:20,844 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:20,845 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56832291, price=2.07353370, reduce_only=False
+2025-09-26 21:01:20,845 - MarketMakerLoop - INFO - Adjusted order: price=2.0735, quantity=9.56
+2025-09-26 21:01:20,845 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0735 (-0.6016% from mid-price)
+2025-09-26 21:01:20,845 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0735, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:01:21,085 - MarketMakerLoop - INFO - Order placed successfully: ID=182066933
+2025-09-26 21:01:21,288 - MarketMakerLoop - INFO - Order 182066933 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:22,980 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:22,980 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57015798, price=2.07313610, reduce_only=False
+2025-09-26 21:01:22,980 - MarketMakerLoop - INFO - Adjusted order: price=2.0731, quantity=9.57
+2025-09-26 21:01:22,980 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0731 (-0.6017% from mid-price)
+2025-09-26 21:01:22,980 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0731, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:01:23,224 - MarketMakerLoop - INFO - Order placed successfully: ID=182067779
+2025-09-26 21:01:23,425 - MarketMakerLoop - INFO - Order 182067779 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:25,127 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:01:25,127 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56809357, price=2.07358340, reduce_only=False
+2025-09-26 21:01:25,127 - MarketMakerLoop - INFO - Adjusted order: price=2.0736, quantity=9.56
+2025-09-26 21:01:25,127 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0736 (-0.5992% from mid-price)
+2025-09-26 21:01:25,127 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0736, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:01:25,806 - MarketMakerLoop - INFO - Order placed successfully: ID=182069096
+2025-09-26 21:01:26,006 - MarketMakerLoop - INFO - Order 182069096 not filled within 0.2s. Cancelling and refreshing.
+2025-09-26 21:01:27,164 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:01:27,232 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:01:27,464 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:01:27,465 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:01:27,473 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:01:27,737 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:03:06,414 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:03:06,416 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:03:07,144 - root - INFO - Fetching initial account balance...
+2025-09-26 21:03:07,145 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:03:07,389 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:03:07,390 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:03:07,390 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:03:07,390 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:03:07,390 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:03:08,068 - root - INFO - No significant existing long position found.
+2025-09-26 21:03:08,068 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:03:08,306 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:03:08,307 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:03:08,307 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:03:08,307 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:03:08,309 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:03:08,986 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:03:08,986 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:03:08,994 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:03:08,994 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:03:09,308 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:03:09,979 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:03:14,467 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:14,467 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55458223, price=2.07651570, reduce_only=False
+2025-09-26 21:03:14,467 - MarketMakerLoop - INFO - Adjusted order: price=2.0765, quantity=9.55
+2025-09-26 21:03:14,467 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0765 (-0.6008% from mid-price)
+2025-09-26 21:03:14,467 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0765, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:03:14,709 - MarketMakerLoop - INFO - Order placed successfully: ID=182114135
+2025-09-26 21:03:15,712 - MarketMakerLoop - INFO - Order 182114135 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:17,861 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:17,861 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55389623, price=2.07666480, reduce_only=False
+2025-09-26 21:03:17,861 - MarketMakerLoop - INFO - Adjusted order: price=2.0767, quantity=9.55
+2025-09-26 21:03:17,861 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0767 (-0.5983% from mid-price)
+2025-09-26 21:03:17,861 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0767, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:03:18,105 - MarketMakerLoop - INFO - Order placed successfully: ID=182115003
+2025-09-26 21:03:19,106 - MarketMakerLoop - INFO - Order 182115003 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:20,368 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:20,368 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56603005, price=2.07403070, reduce_only=False
+2025-09-26 21:03:20,368 - MarketMakerLoop - INFO - Adjusted order: price=2.0740, quantity=9.56
+2025-09-26 21:03:20,369 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0740 (-0.6015% from mid-price)
+2025-09-26 21:03:20,369 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0740, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:03:20,610 - MarketMakerLoop - INFO - Order placed successfully: ID=182116344
+2025-09-26 21:03:21,610 - MarketMakerLoop - INFO - Order 182116344 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:23,318 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:23,318 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55824255, price=2.07572050, reduce_only=False
+2025-09-26 21:03:23,318 - MarketMakerLoop - INFO - Adjusted order: price=2.0757, quantity=9.55
+2025-09-26 21:03:23,318 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0757 (-0.6010% from mid-price)
+2025-09-26 21:03:23,318 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0757, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:03:23,564 - MarketMakerLoop - INFO - Order placed successfully: ID=182117619
+2025-09-26 21:03:24,565 - MarketMakerLoop - INFO - Order 182117619 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:25,828 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:25,828 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56419655, price=2.07442830, reduce_only=False
+2025-09-26 21:03:25,829 - MarketMakerLoop - INFO - Adjusted order: price=2.0744, quantity=9.56
+2025-09-26 21:03:25,829 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0744 (-0.6014% from mid-price)
+2025-09-26 21:03:25,829 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0744, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:03:26,504 - MarketMakerLoop - INFO - Order placed successfully: ID=182118629
+2025-09-26 21:03:27,506 - MarketMakerLoop - INFO - Order 182118629 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:28,772 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:28,773 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56740563, price=2.07373250, reduce_only=False
+2025-09-26 21:03:28,773 - MarketMakerLoop - INFO - Adjusted order: price=2.0737, quantity=9.56
+2025-09-26 21:03:28,773 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0737 (-0.6016% from mid-price)
+2025-09-26 21:03:28,773 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0737, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:03:29,016 - MarketMakerLoop - INFO - Order placed successfully: ID=182119754
+2025-09-26 21:03:30,018 - MarketMakerLoop - INFO - Order 182119754 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:31,718 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:31,718 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57658630, price=2.07174450, reduce_only=False
+2025-09-26 21:03:31,718 - MarketMakerLoop - INFO - Adjusted order: price=2.0717, quantity=9.57
+2025-09-26 21:03:31,718 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0717 (-0.6021% from mid-price)
+2025-09-26 21:03:31,718 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0717, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:03:32,399 - MarketMakerLoop - INFO - Order placed successfully: ID=182121220
+2025-09-26 21:03:33,400 - MarketMakerLoop - INFO - Order 182121220 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:34,660 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:34,660 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57911408, price=2.07119780, reduce_only=False
+2025-09-26 21:03:34,661 - MarketMakerLoop - INFO - Adjusted order: price=2.0712, quantity=9.57
+2025-09-26 21:03:34,661 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0712 (-0.5999% from mid-price)
+2025-09-26 21:03:34,661 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0712, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:03:34,904 - MarketMakerLoop - INFO - Order placed successfully: ID=182121763
+2025-09-26 21:03:35,905 - MarketMakerLoop - INFO - Order 182121763 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:37,602 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:37,602 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57934394, price=2.07114810, reduce_only=False
+2025-09-26 21:03:37,602 - MarketMakerLoop - INFO - Adjusted order: price=2.0711, quantity=9.57
+2025-09-26 21:03:37,602 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0711 (-0.6023% from mid-price)
+2025-09-26 21:03:37,602 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0711, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:03:38,277 - MarketMakerLoop - INFO - Order placed successfully: ID=182123347
+2025-09-26 21:03:39,278 - MarketMakerLoop - INFO - Order 182123347 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:41,417 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:41,417 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.59407820, price=2.06796730, reduce_only=False
+2025-09-26 21:03:41,417 - MarketMakerLoop - INFO - Adjusted order: price=2.0680, quantity=9.59
+2025-09-26 21:03:41,417 - MarketMakerLoop - INFO - Placing BUY order: 9.59 ASTERUSDT @ 2.0680 (-0.5984% from mid-price)
+2025-09-26 21:03:41,417 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0680, quantity=9.59, side=BUY, reduceOnly=False
+2025-09-26 21:03:42,102 - MarketMakerLoop - INFO - Order placed successfully: ID=182125035
+2025-09-26 21:03:43,103 - MarketMakerLoop - INFO - Order 182125035 not filled within 1s. Cancelling and refreshing.
+2025-09-26 21:03:44,369 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:03:44,369 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60192423, price=2.06627750, reduce_only=False
+2025-09-26 21:03:44,369 - MarketMakerLoop - INFO - Adjusted order: price=2.0663, quantity=9.60
+2025-09-26 21:03:44,369 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0663 (-0.5989% from mid-price)
+2025-09-26 21:03:44,369 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0663, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:03:45,044 - MarketMakerLoop - INFO - Order placed successfully: ID=182126641
+2025-09-26 21:03:45,788 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:03:45,820 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:03:46,058 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:03:46,058 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:03:46,058 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:03:46,763 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:03:58,101 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:03:58,102 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:03:58,372 - root - INFO - Fetching initial account balance...
+2025-09-26 21:03:58,372 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:03:59,051 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:03:59,051 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:03:59,051 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:03:59,051 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:03:59,051 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:03:59,732 - root - INFO - No significant existing long position found.
+2025-09-26 21:03:59,732 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:04:00,404 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:04:00,404 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:04:00,404 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:04:00,405 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:04:00,407 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:04:00,674 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:04:00,674 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:04:01,080 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:04:01,080 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:04:01,377 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:04:01,643 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:04:06,999 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:06,999 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.58210317, price=2.07055170, reduce_only=False
+2025-09-26 21:04:07,000 - MarketMakerLoop - INFO - Adjusted order: price=2.0706, quantity=9.58
+2025-09-26 21:04:07,000 - MarketMakerLoop - INFO - Placing BUY order: 9.58 ASTERUSDT @ 2.0706 (-0.5977% from mid-price)
+2025-09-26 21:04:07,000 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0706, quantity=9.58, side=BUY, reduceOnly=False
+2025-09-26 21:04:07,246 - MarketMakerLoop - INFO - Order placed successfully: ID=182137869
+2025-09-26 21:04:07,746 - MarketMakerLoop - INFO - Order 182137869 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:09,010 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:09,010 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.58670541, price=2.06955770, reduce_only=False
+2025-09-26 21:04:09,010 - MarketMakerLoop - INFO - Adjusted order: price=2.0696, quantity=9.58
+2025-09-26 21:04:09,010 - MarketMakerLoop - INFO - Placing BUY order: 9.58 ASTERUSDT @ 2.0696 (-0.5980% from mid-price)
+2025-09-26 21:04:09,010 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0696, quantity=9.58, side=BUY, reduceOnly=False
+2025-09-26 21:04:09,253 - MarketMakerLoop - INFO - Order placed successfully: ID=182138685
+2025-09-26 21:04:09,754 - MarketMakerLoop - INFO - Order 182138685 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:11,453 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:11,453 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.58394353, price=2.07015410, reduce_only=False
+2025-09-26 21:04:11,453 - MarketMakerLoop - INFO - Adjusted order: price=2.0702, quantity=9.58
+2025-09-26 21:04:11,453 - MarketMakerLoop - INFO - Placing BUY order: 9.58 ASTERUSDT @ 2.0702 (-0.5978% from mid-price)
+2025-09-26 21:04:11,453 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0702, quantity=9.58, side=BUY, reduceOnly=False
+2025-09-26 21:04:12,136 - MarketMakerLoop - INFO - Order placed successfully: ID=182139943
+2025-09-26 21:04:12,638 - MarketMakerLoop - INFO - Order 182139943 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:14,771 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:14,772 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.59615385, price=2.06752000, reduce_only=False
+2025-09-26 21:04:14,772 - MarketMakerLoop - INFO - Adjusted order: price=2.0675, quantity=9.59
+2025-09-26 21:04:14,772 - MarketMakerLoop - INFO - Placing BUY order: 9.59 ASTERUSDT @ 2.0675 (-0.6010% from mid-price)
+2025-09-26 21:04:14,772 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0675, quantity=9.59, side=BUY, reduceOnly=False
+2025-09-26 21:04:15,012 - MarketMakerLoop - INFO - Order placed successfully: ID=182141026
+2025-09-26 21:04:15,513 - MarketMakerLoop - INFO - Order 182141026 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:17,208 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:17,208 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60238616, price=2.06617810, reduce_only=False
+2025-09-26 21:04:17,208 - MarketMakerLoop - INFO - Adjusted order: price=2.0662, quantity=9.60
+2025-09-26 21:04:17,208 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0662 (-0.5989% from mid-price)
+2025-09-26 21:04:17,208 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0662, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:04:17,892 - MarketMakerLoop - INFO - Order placed successfully: ID=182142043
+2025-09-26 21:04:18,393 - MarketMakerLoop - INFO - Order 182142043 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:20,094 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:20,095 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60423433, price=2.06578050, reduce_only=False
+2025-09-26 21:04:20,095 - MarketMakerLoop - INFO - Adjusted order: price=2.0658, quantity=9.60
+2025-09-26 21:04:20,095 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0658 (-0.5991% from mid-price)
+2025-09-26 21:04:20,095 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0658, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:04:20,779 - MarketMakerLoop - INFO - Order placed successfully: ID=182143378
+2025-09-26 21:04:21,280 - MarketMakerLoop - INFO - Order 182143378 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:22,987 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:22,988 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60862658, price=2.06483620, reduce_only=False
+2025-09-26 21:04:22,988 - MarketMakerLoop - INFO - Adjusted order: price=2.0648, quantity=9.60
+2025-09-26 21:04:22,988 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0648 (-0.6017% from mid-price)
+2025-09-26 21:04:22,988 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0648, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:04:23,231 - MarketMakerLoop - INFO - Order placed successfully: ID=182144215
+2025-09-26 21:04:23,732 - MarketMakerLoop - INFO - Order 182144215 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:25,432 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:04:25,433 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.61279137, price=2.06394160, reduce_only=False
+2025-09-26 21:04:25,433 - MarketMakerLoop - INFO - Adjusted order: price=2.0639, quantity=9.61
+2025-09-26 21:04:25,433 - MarketMakerLoop - INFO - Placing BUY order: 9.61 ASTERUSDT @ 2.0639 (-0.6020% from mid-price)
+2025-09-26 21:04:25,433 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0639, quantity=9.61, side=BUY, reduceOnly=False
+2025-09-26 21:04:26,118 - MarketMakerLoop - INFO - Order placed successfully: ID=182145110
+2025-09-26 21:04:26,619 - MarketMakerLoop - INFO - Order 182145110 not filled within 0.5s. Cancelling and refreshing.
+2025-09-26 21:04:27,120 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:04:27,147 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:04:27,379 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:04:27,379 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:04:27,379 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:04:27,657 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:06:53,425 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:06:53,427 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:06:54,149 - root - INFO - Fetching initial account balance...
+2025-09-26 21:06:54,150 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:06:54,833 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:06:54,833 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:06:54,833 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:06:54,833 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:06:54,833 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:06:55,070 - root - INFO - No significant existing long position found.
+2025-09-26 21:06:55,070 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:06:55,307 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:06:55,307 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:06:55,307 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:06:55,308 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:06:55,310 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:06:55,585 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:06:55,585 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:06:55,979 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:06:55,979 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:06:56,320 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:06:56,551 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:07:01,890 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:01,890 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60400327, price=2.06583020, reduce_only=False
+2025-09-26 21:07:01,890 - MarketMakerLoop - INFO - Adjusted order: price=2.0658, quantity=9.60
+2025-09-26 21:07:01,890 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0658 (-0.6015% from mid-price)
+2025-09-26 21:07:01,890 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0658, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:07:02,133 - MarketMakerLoop - INFO - Order placed successfully: ID=182216286
+2025-09-26 21:07:02,434 - MarketMakerLoop - INFO - Order 182216286 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:04,573 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:04,573 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.60631437, price=2.06533320, reduce_only=False
+2025-09-26 21:07:04,573 - MarketMakerLoop - INFO - Adjusted order: price=2.0653, quantity=9.60
+2025-09-26 21:07:04,573 - MarketMakerLoop - INFO - Placing BUY order: 9.60 ASTERUSDT @ 2.0653 (-0.6016% from mid-price)
+2025-09-26 21:07:04,573 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0653, quantity=9.60, side=BUY, reduceOnly=False
+2025-09-26 21:07:05,252 - MarketMakerLoop - INFO - Order placed successfully: ID=182217415
+2025-09-26 21:07:05,553 - MarketMakerLoop - INFO - Order 182217415 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:06,812 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:06,812 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.61649643, price=2.06314640, reduce_only=False
+2025-09-26 21:07:06,812 - MarketMakerLoop - INFO - Adjusted order: price=2.0631, quantity=9.61
+2025-09-26 21:07:06,812 - MarketMakerLoop - INFO - Placing BUY order: 9.61 ASTERUSDT @ 2.0631 (-0.6022% from mid-price)
+2025-09-26 21:07:06,812 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0631, quantity=9.61, side=BUY, reduceOnly=False
+2025-09-26 21:07:07,055 - MarketMakerLoop - INFO - Order placed successfully: ID=182218558
+2025-09-26 21:07:07,356 - MarketMakerLoop - INFO - Order 182218558 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:09,491 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:09,491 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.62670011, price=2.06095960, reduce_only=False
+2025-09-26 21:07:09,491 - MarketMakerLoop - INFO - Adjusted order: price=2.0610, quantity=9.62
+2025-09-26 21:07:09,492 - MarketMakerLoop - INFO - Placing BUY order: 9.62 ASTERUSDT @ 2.0610 (-0.5981% from mid-price)
+2025-09-26 21:07:09,492 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0610, quantity=9.62, side=BUY, reduceOnly=False
+2025-09-26 21:07:09,733 - MarketMakerLoop - INFO - Order placed successfully: ID=182220241
+2025-09-26 21:07:10,034 - MarketMakerLoop - INFO - Order 182220241 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:11,297 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:11,297 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.63622758, price=2.05892190, reduce_only=False
+2025-09-26 21:07:11,297 - MarketMakerLoop - INFO - Adjusted order: price=2.0589, quantity=9.63
+2025-09-26 21:07:11,297 - MarketMakerLoop - INFO - Placing BUY order: 9.63 ASTERUSDT @ 2.0589 (-0.6011% from mid-price)
+2025-09-26 21:07:11,297 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0589, quantity=9.63, side=BUY, reduceOnly=False
+2025-09-26 21:07:11,982 - MarketMakerLoop - INFO - Order placed successfully: ID=182221395
+2025-09-26 21:07:12,283 - MarketMakerLoop - INFO - Order 182221395 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:14,425 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:14,425 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.63785611, price=2.05857400, reduce_only=False
+2025-09-26 21:07:14,425 - MarketMakerLoop - INFO - Adjusted order: price=2.0586, quantity=9.63
+2025-09-26 21:07:14,425 - MarketMakerLoop - INFO - Placing BUY order: 9.63 ASTERUSDT @ 2.0586 (-0.5987% from mid-price)
+2025-09-26 21:07:14,425 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0586, quantity=9.63, side=BUY, reduceOnly=False
+2025-09-26 21:07:14,668 - MarketMakerLoop - INFO - Order placed successfully: ID=182222858
+2025-09-26 21:07:14,969 - MarketMakerLoop - INFO - Order 182222858 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:16,674 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:16,674 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.63204247, price=2.05981650, reduce_only=False
+2025-09-26 21:07:16,675 - MarketMakerLoop - INFO - Adjusted order: price=2.0598, quantity=9.63
+2025-09-26 21:07:16,675 - MarketMakerLoop - INFO - Placing BUY order: 9.63 ASTERUSDT @ 2.0598 (-0.6008% from mid-price)
+2025-09-26 21:07:16,675 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0598, quantity=9.63, side=BUY, reduceOnly=False
+2025-09-26 21:07:16,922 - MarketMakerLoop - INFO - Order placed successfully: ID=182224196
+2025-09-26 21:07:17,223 - MarketMakerLoop - INFO - Order 182224196 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:19,348 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:19,348 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.63088058, price=2.06006500, reduce_only=False
+2025-09-26 21:07:19,348 - MarketMakerLoop - INFO - Adjusted order: price=2.0601, quantity=9.63
+2025-09-26 21:07:19,349 - MarketMakerLoop - INFO - Placing BUY order: 9.63 ASTERUSDT @ 2.0601 (-0.5983% from mid-price)
+2025-09-26 21:07:19,349 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0601, quantity=9.63, side=BUY, reduceOnly=False
+2025-09-26 21:07:19,591 - MarketMakerLoop - INFO - Order placed successfully: ID=182225351
+2025-09-26 21:07:19,892 - MarketMakerLoop - INFO - Order 182225351 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:20,715 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:20,715 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.62762879, price=2.06076080, reduce_only=False
+2025-09-26 21:07:20,715 - MarketMakerLoop - INFO - Adjusted order: price=2.0608, quantity=9.62
+2025-09-26 21:07:20,716 - MarketMakerLoop - INFO - Placing BUY order: 9.62 ASTERUSDT @ 2.0608 (-0.5981% from mid-price)
+2025-09-26 21:07:20,716 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0608, quantity=9.62, side=BUY, reduceOnly=False
+2025-09-26 21:07:21,396 - MarketMakerLoop - INFO - Order placed successfully: ID=182226060
+2025-09-26 21:07:21,696 - MarketMakerLoop - INFO - Order 182226060 not filled within 0.3s. Cancelling and refreshing.
+2025-09-26 21:07:23,175 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:07:23,175 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.63227488, price=2.05976680, reduce_only=False
+2025-09-26 21:07:23,176 - MarketMakerLoop - INFO - Adjusted order: price=2.0598, quantity=9.63
+2025-09-26 21:07:23,176 - MarketMakerLoop - INFO - Placing BUY order: 9.63 ASTERUSDT @ 2.0598 (-0.5984% from mid-price)
+2025-09-26 21:07:23,176 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0598, quantity=9.63, side=BUY, reduceOnly=False
+2025-09-26 21:07:23,858 - MarketMakerLoop - INFO - Order placed successfully: ID=182227145
+2025-09-26 21:07:23,884 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:07:23,953 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:07:24,191 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:07:24,191 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:07:24,202 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:07:24,905 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:09:54,739 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:09:54,740 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:09:55,470 - root - INFO - Fetching initial account balance...
+2025-09-26 21:09:55,471 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:09:56,156 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:09:56,156 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:09:56,156 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:09:56,156 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:09:56,156 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:09:56,834 - root - INFO - No significant existing long position found.
+2025-09-26 21:09:56,834 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:09:57,511 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:09:57,511 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:09:57,511 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:09:57,511 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:09:57,513 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:09:58,190 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:09:58,190 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:09:58,201 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:09:58,201 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:09:58,493 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:09:59,193 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:10:04,540 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:10:04,540 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56373829, price=2.07452770, reduce_only=False
+2025-09-26 21:10:04,540 - MarketMakerLoop - INFO - Adjusted order: price=2.0745, quantity=9.56
+2025-09-26 21:10:04,540 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0745 (-0.6013% from mid-price)
+2025-09-26 21:10:04,541 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0745, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:10:04,785 - MarketMakerLoop - INFO - Order placed successfully: ID=182291058
+2025-09-26 21:10:07,787 - MarketMakerLoop - INFO - Order 182291058 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:10:09,484 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:10:09,484 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55321033, price=2.07681390, reduce_only=False
+2025-09-26 21:10:09,484 - MarketMakerLoop - INFO - Adjusted order: price=2.0768, quantity=9.55
+2025-09-26 21:10:09,484 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0768 (-0.6007% from mid-price)
+2025-09-26 21:10:09,484 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0768, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:10:10,169 - MarketMakerLoop - INFO - Order placed successfully: ID=182293347
+2025-09-26 21:10:13,169 - MarketMakerLoop - INFO - Order 182293347 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:10:14,430 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:10:14,430 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.54772667, price=2.07800670, reduce_only=False
+2025-09-26 21:10:14,430 - MarketMakerLoop - INFO - Adjusted order: price=2.0780, quantity=9.54
+2025-09-26 21:10:14,430 - MarketMakerLoop - INFO - Placing BUY order: 9.54 ASTERUSDT @ 2.0780 (-0.6003% from mid-price)
+2025-09-26 21:10:14,430 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0780, quantity=9.54, side=BUY, reduceOnly=False
+2025-09-26 21:10:15,105 - MarketMakerLoop - INFO - Order placed successfully: ID=182295558
+2025-09-26 21:10:18,106 - MarketMakerLoop - INFO - Order 182295558 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:10:19,580 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:10:19,621 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:10:19,851 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:10:19,852 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:10:19,853 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:10:20,553 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:18:17,768 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:18:17,769 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:18:18,496 - root - INFO - Fetching initial account balance...
+2025-09-26 21:18:18,496 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:18:19,179 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:18:19,179 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:18:19,179 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:18:19,179 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:18:19,179 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:18:19,859 - root - INFO - No significant existing long position found.
+2025-09-26 21:18:19,859 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:18:20,237 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:18:20,237 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:18:20,237 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:18:20,238 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:18:20,240 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:18:20,918 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:18:20,918 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:18:20,929 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:18:20,929 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:18:21,244 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:18:21,919 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:18:27,267 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:18:27,267 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.55138174, price=2.07721150, reduce_only=False
+2025-09-26 21:18:27,267 - MarketMakerLoop - INFO - Adjusted order: price=2.0772, quantity=9.55
+2025-09-26 21:18:27,267 - MarketMakerLoop - INFO - Placing BUY order: 9.55 ASTERUSDT @ 2.0772 (-0.6006% from mid-price)
+2025-09-26 21:18:27,267 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0772, quantity=9.55, side=BUY, reduceOnly=False
+2025-09-26 21:18:27,951 - MarketMakerLoop - INFO - Order placed successfully: ID=182504149
+2025-09-26 21:18:30,952 - MarketMakerLoop - INFO - Order 182504149 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:18:32,655 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:18:32,656 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56763493, price=2.07368280, reduce_only=False
+2025-09-26 21:18:32,656 - MarketMakerLoop - INFO - Adjusted order: price=2.0737, quantity=9.56
+2025-09-26 21:18:32,656 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0737 (-0.5992% from mid-price)
+2025-09-26 21:18:32,656 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0737, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:18:33,340 - MarketMakerLoop - INFO - Order placed successfully: ID=182506433
+2025-09-26 21:18:36,341 - MarketMakerLoop - INFO - Order 182506433 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:18:38,040 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:18:38,041 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.56878161, price=2.07343430, reduce_only=False
+2025-09-26 21:18:38,041 - MarketMakerLoop - INFO - Adjusted order: price=2.0734, quantity=9.56
+2025-09-26 21:18:38,041 - MarketMakerLoop - INFO - Placing BUY order: 9.56 ASTERUSDT @ 2.0734 (-0.6016% from mid-price)
+2025-09-26 21:18:38,041 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0734, quantity=9.56, side=BUY, reduceOnly=False
+2025-09-26 21:18:38,716 - MarketMakerLoop - INFO - Order placed successfully: ID=182508171
+2025-09-26 21:18:41,717 - MarketMakerLoop - INFO - Order 182508171 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:18:42,539 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:18:42,539 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57153475, price=2.07283790, reduce_only=False
+2025-09-26 21:18:42,539 - MarketMakerLoop - INFO - Adjusted order: price=2.0728, quantity=9.57
+2025-09-26 21:18:42,539 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0728 (-0.6018% from mid-price)
+2025-09-26 21:18:42,539 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0728, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:18:43,217 - MarketMakerLoop - INFO - Order placed successfully: ID=182509821
+2025-09-26 21:18:46,219 - MarketMakerLoop - INFO - Order 182509821 not filled within 3s. Cancelling and refreshing.
+2025-09-26 21:18:47,924 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:18:47,924 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.52767369, price=2.08238030, reduce_only=False
+2025-09-26 21:18:47,924 - MarketMakerLoop - INFO - Adjusted order: price=2.0824, quantity=9.52
+2025-09-26 21:18:47,924 - MarketMakerLoop - INFO - Placing BUY order: 9.52 ASTERUSDT @ 2.0824 (-0.5991% from mid-price)
+2025-09-26 21:18:47,924 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0824, quantity=9.52, side=BUY, reduceOnly=False
+2025-09-26 21:18:48,608 - MarketMakerLoop - INFO - Order placed successfully: ID=182513116
+2025-09-26 21:18:50,048 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:18:50,090 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:18:50,328 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:18:50,328 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:18:50,329 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:18:51,036 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:22:19,521 - root - INFO - Starting market maker with arguments: Namespace(symbol='ASTERUSDT')
+2025-09-26 21:22:19,523 - root - INFO - Sending initial cancel all orders for ASTERUSDT to ensure a clean slate.
+2025-09-26 21:22:19,807 - root - INFO - Fetching initial account balance...
+2025-09-26 21:22:19,807 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:22:20,483 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:22:20,483 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:22:20,483 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:22:20,483 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:22:20,483 - root - INFO - Checking for existing position for ASTERUSDT...
+2025-09-26 21:22:21,159 - root - INFO - No significant existing long position found.
+2025-09-26 21:22:21,159 - root - INFO - Attempting to set leverage for ASTERUSDT to 1x.
+2025-09-26 21:22:21,397 - root - INFO - Successfully set leverage for ASTERUSDT to 1x.
+2025-09-26 21:22:21,397 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:22:21,397 - MarketMakerLoop - INFO - Fetching trading rules for ASTERUSDT...
+2025-09-26 21:22:21,397 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/asterusdt@depth5
+2025-09-26 21:22:21,399 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:22:21,671 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:22:21,671 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:22:22,076 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 4, 'tick_size': 0.0001, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:22:22,076 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:22:22,370 - WebSocketPriceUpdater - INFO - WebSocket connected for ASTERUSDT depth stream
+2025-09-26 21:22:22,638 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:22:27,989 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:22:27,989 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57658630, price=2.07174450, reduce_only=False
+2025-09-26 21:22:27,989 - MarketMakerLoop - INFO - Adjusted order: price=2.0717, quantity=9.57
+2025-09-26 21:22:27,990 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0717 (-0.6021% from mid-price)
+2025-09-26 21:22:27,990 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0717, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:22:28,232 - MarketMakerLoop - INFO - Order placed successfully: ID=182594401
+2025-09-26 21:22:36,233 - MarketMakerLoop - INFO - Order 182594401 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:22:37,487 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:22:37,487 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=9.57474876, price=2.07214210, reduce_only=False
+2025-09-26 21:22:37,487 - MarketMakerLoop - INFO - Adjusted order: price=2.0721, quantity=9.57
+2025-09-26 21:22:37,487 - MarketMakerLoop - INFO - Placing BUY order: 9.57 ASTERUSDT @ 2.0721 (-0.6020% from mid-price)
+2025-09-26 21:22:37,487 - MarketMakerLoop - INFO - Order details: symbol=ASTERUSDT, price=2.0721, quantity=9.57, side=BUY, reduceOnly=False
+2025-09-26 21:22:37,729 - MarketMakerLoop - INFO - Order placed successfully: ID=182598110
+2025-09-26 21:22:45,059 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:22:45,129 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:22:45,361 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:22:45,361 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:22:45,362 - root - INFO - Performing final cleanup: Cancelling all orders for ASTERUSDT.
+2025-09-26 21:22:46,060 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:24:15,628 - root - INFO - Starting market maker with arguments: Namespace(symbol='BTCUDST')
+2025-09-26 21:24:15,630 - root - INFO - Sending initial cancel all orders for BTCUDST to ensure a clean slate.
+2025-09-26 21:24:15,913 - root - WARNING - Failed to send initial cancel all orders, proceeding anyway: 400, message='Bad Request', url='https://fapi.asterdex.com/fapi/v3/allOpenOrders'
+2025-09-26 21:24:15,913 - root - INFO - Fetching initial account balance...
+2025-09-26 21:24:15,913 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:24:16,595 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:24:16,595 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:24:16,595 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:24:16,595 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:24:16,596 - root - INFO - Checking for existing position for BTCUDST...
+2025-09-26 21:24:17,270 - root - WARNING - Could not check for existing position or set leverage, starting in default BUY mode: 400, message='Bad Request', url='https://fapi.asterdex.com/fapi/v3/positionRisk?symbol=BTCUDST&recvWindow=50000&timestamp=1758914656596&nonce=1758914656596064&user=0xF10A2eA0E61c01613eCdC639EE432fcad3fFCF27&signer=0x2148fa2c383a6e169baffb111f842bd42afee4cd&signature=0xb6ac1a1345357f6ac609784bd6f9ce26e5e66581b5cc5b6f35bc68217ef178de4ac443ddea1845c456d62d8459805f158f9e16c4f2ca5905c266dd7ea0b468921b'
+Traceback (most recent call last):
+  File "/home/adminphp/ASTER_HFT_Market_Making/market_maker.py", line 934, in main
+    positions = await client.get_position_risk(args.symbol)
+  File "/home/adminphp/ASTER_HFT_Market_Making/api_client.py", line 202, in get_position_risk
+    response.raise_for_status()
+  File "/home/adminphp/.local/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 1158, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://fapi.asterdex.com/fapi/v3/positionRisk?symbol=BTCUDST&recvWindow=50000&timestamp=1758914656596&nonce=1758914656596064&user=0xF10A2eA0E61c01613eCdC639EE432fcad3fFCF27&signer=0x2148fa2c383a6e169baffb111f842bd42afee4cd&signature=0xb6ac1a1345357f6ac609784bd6f9ce26e5e66581b5cc5b6f35bc68217ef178de4ac443ddea1845c456d62d8459805f158f9e16c4f2ca5905c266dd7ea0b468921b'
+2025-09-26 21:24:17,271 - MarketMakerLoop - INFO - Fetching trading rules for BTCUDST...
+2025-09-26 21:24:17,272 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/btcudst@depth5
+2025-09-26 21:24:17,274 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:24:17,962 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:24:17,962 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:24:17,976 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:24:17,976 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:24:17,976 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:24:17,976 - root - INFO - Performing final cleanup: Cancelling all orders for BTCUDST.
+2025-09-26 21:24:18,671 - root - ERROR - Error during final order cancellation: 400, message='Bad Request', url='https://fapi.asterdex.com/fapi/v3/allOpenOrders'
+2025-09-26 21:24:37,772 - root - INFO - Starting market maker with arguments: Namespace(symbol='BTCUSDT')
+2025-09-26 21:24:37,774 - root - INFO - Sending initial cancel all orders for BTCUSDT to ensure a clean slate.
+2025-09-26 21:24:38,484 - root - INFO - Fetching initial account balance...
+2025-09-26 21:24:38,484 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:24:38,729 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:24:38,729 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:24:38,729 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:24:38,729 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:24:38,729 - root - INFO - Checking for existing position for BTCUSDT...
+2025-09-26 21:24:39,402 - root - INFO - No significant existing long position found.
+2025-09-26 21:24:39,402 - root - INFO - Attempting to set leverage for BTCUSDT to 1x.
+2025-09-26 21:24:40,083 - root - INFO - Successfully set leverage for BTCUSDT to 1x.
+2025-09-26 21:24:40,084 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:24:40,084 - MarketMakerLoop - INFO - Fetching trading rules for BTCUSDT...
+2025-09-26 21:24:40,084 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/btcusdt@depth5
+2025-09-26 21:24:40,086 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:24:40,765 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 1, 'tick_size': 0.1, 'quantity_precision': 3, 'step_size': 0.001, 'min_notional': 5.0}
+2025-09-26 21:24:40,765 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:24:40,774 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:24:40,774 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:24:41,071 - WebSocketPriceUpdater - INFO - WebSocket connected for BTCUSDT depth stream
+2025-09-26 21:24:41,738 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:24:46,238 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:24:46,238 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.00018230, price=108835.69410000, reduce_only=False
+2025-09-26 21:24:46,238 - MarketMakerLoop - INFO - Adjusted order: price=108835.7, quantity=0.000
+2025-09-26 21:24:46,239 - MarketMakerLoop - WARNING - Calculated quantity is zero or negative: 0.000. Skipping cycle.
+2025-09-26 21:24:55,594 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:24:55,595 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.00018232, price=108823.16970000, reduce_only=False
+2025-09-26 21:24:55,595 - MarketMakerLoop - INFO - Adjusted order: price=108823.2, quantity=0.000
+2025-09-26 21:24:55,595 - MarketMakerLoop - WARNING - Calculated quantity is zero or negative: 0.000. Skipping cycle.
+2025-09-26 21:25:01,887 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:25:01,985 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:25:02,218 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:25:02,218 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:25:02,223 - root - INFO - Performing final cleanup: Cancelling all orders for BTCUSDT.
+2025-09-26 21:25:02,928 - root - INFO - All open orders cancelled. Shutdown complete.
+2025-09-26 21:25:17,534 - root - INFO - Starting market maker with arguments: Namespace(symbol='BNBUSDT')
+2025-09-26 21:25:17,535 - root - INFO - Sending initial cancel all orders for BNBUSDT to ensure a clean slate.
+2025-09-26 21:25:18,263 - root - INFO - Fetching initial account balance...
+2025-09-26 21:25:18,263 - InitialBalance - INFO - Fetching initial account balance...
+2025-09-26 21:25:18,945 - InitialBalance - INFO - Initial USDF balance: 0.0
+2025-09-26 21:25:18,945 - InitialBalance - INFO - Initial USDT balance: 99.8
+2025-09-26 21:25:18,945 - InitialBalance - INFO - Initial USDC balance: 0.0
+2025-09-26 21:25:18,945 - InitialBalance - INFO - Initial balance loaded: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:25:18,945 - root - INFO - Checking for existing position for BNBUSDT...
+2025-09-26 21:25:19,616 - root - INFO - No significant existing long position found.
+2025-09-26 21:25:19,616 - root - INFO - Attempting to set leverage for BNBUSDT to 1x.
+2025-09-26 21:25:20,296 - root - INFO - Successfully set leverage for BNBUSDT to 1x.
+2025-09-26 21:25:20,296 - root - INFO - Starting in default BUY mode.
+2025-09-26 21:25:20,297 - MarketMakerLoop - INFO - Fetching trading rules for BNBUSDT...
+2025-09-26 21:25:20,297 - WebSocketPriceUpdater - INFO - Connecting to WebSocket: wss://fstream.asterdex.com/ws/bnbusdt@depth5
+2025-09-26 21:25:20,299 - UserDataUpdater - INFO - Getting listen key for user data stream...
+2025-09-26 21:25:20,974 - MarketMakerLoop - INFO - Filters loaded: {'price_precision': 1, 'tick_size': 0.1, 'quantity_precision': 2, 'step_size': 0.01, 'min_notional': 5.0}
+2025-09-26 21:25:20,974 - MarketMakerLoop - WARNING - A WebSocket is disconnected (Price_WS_Connected=False, User_Data_WS_Connected=False). Pausing trading logic.
+2025-09-26 21:25:20,989 - UserDataUpdater - INFO - User data listen key obtained: Kl7v65XeTLTL7gge6tUf...
+2025-09-26 21:25:20,989 - UserDataUpdater - INFO - Connecting to user data WebSocket: wss://fstream.asterdex.com/ws/Kl7v65XeTLTL7gge6tUfnSflqRZfHiGlRyhrbFF2ZEMpLH5qd1YxfWqFSZLeb5ha
+2025-09-26 21:25:21,274 - WebSocketPriceUpdater - INFO - WebSocket connected for BNBUSDT depth stream
+2025-09-26 21:25:21,971 - UserDataUpdater - INFO - User data WebSocket connected!
+2025-09-26 21:25:26,885 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:25:26,886 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02084922, price=951.60590000, reduce_only=False
+2025-09-26 21:25:26,886 - MarketMakerLoop - INFO - Adjusted order: price=951.6, quantity=0.02
+2025-09-26 21:25:26,886 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.6 (-0.6006% from mid-price)
+2025-09-26 21:25:26,886 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.6, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:25:27,127 - MarketMakerLoop - INFO - Order placed successfully: ID=831573957
+2025-09-26 21:25:35,128 - MarketMakerLoop - INFO - Order 831573957 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:25:36,385 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:25:36,385 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02085575, price=951.30770000, reduce_only=False
+2025-09-26 21:25:36,385 - MarketMakerLoop - INFO - Adjusted order: price=951.3, quantity=0.02
+2025-09-26 21:25:36,385 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.3 (-0.6008% from mid-price)
+2025-09-26 21:25:36,385 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.3, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:25:37,067 - MarketMakerLoop - INFO - Order placed successfully: ID=831574894
+2025-09-26 21:25:45,068 - MarketMakerLoop - INFO - Order 831574894 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:25:47,211 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:25:47,211 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02085467, price=951.35740000, reduce_only=False
+2025-09-26 21:25:47,212 - MarketMakerLoop - INFO - Adjusted order: price=951.4, quantity=0.02
+2025-09-26 21:25:47,212 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.4 (-0.5955% from mid-price)
+2025-09-26 21:25:47,212 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.4, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:25:47,455 - MarketMakerLoop - INFO - Order placed successfully: ID=831575884
+2025-09-26 21:25:55,455 - MarketMakerLoop - INFO - Order 831575884 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:25:56,717 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:25:56,718 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02085358, price=951.40710000, reduce_only=False
+2025-09-26 21:25:56,718 - MarketMakerLoop - INFO - Adjusted order: price=951.4, quantity=0.02
+2025-09-26 21:25:56,718 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.4 (-0.6007% from mid-price)
+2025-09-26 21:25:56,718 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.4, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:25:56,962 - MarketMakerLoop - INFO - Order placed successfully: ID=831576728
+2025-09-26 21:26:04,962 - MarketMakerLoop - INFO - Order 831576728 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:26:06,662 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:26:06,663 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02085358, price=951.40710000, reduce_only=False
+2025-09-26 21:26:06,663 - MarketMakerLoop - INFO - Adjusted order: price=951.4, quantity=0.02
+2025-09-26 21:26:06,663 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.4 (-0.6007% from mid-price)
+2025-09-26 21:26:06,663 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.4, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:26:06,906 - MarketMakerLoop - INFO - Order placed successfully: ID=831577544
+2025-09-26 21:26:14,906 - MarketMakerLoop - INFO - Order 831577544 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:26:16,611 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:26:16,611 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02085358, price=951.40710000, reduce_only=False
+2025-09-26 21:26:16,611 - MarketMakerLoop - INFO - Adjusted order: price=951.4, quantity=0.02
+2025-09-26 21:26:16,612 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.4 (-0.6007% from mid-price)
+2025-09-26 21:26:16,612 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.4, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:26:17,290 - MarketMakerLoop - INFO - Order placed successfully: ID=831578542
+2025-09-26 21:26:20,300 - BalanceReporter - INFO - Account Balance: USDF=0.0000, USDT=99.8000, USDC=0.0000, Total=$99.8000
+2025-09-26 21:26:20,301 - PriceReporter - INFO - BNBUSDT | Mid-Price: $957.1500 | Bid-Ask Spread: 0.010% | Bid: $957.1000 | Ask: $957.2000 | Balance: $99.80
+2025-09-26 21:26:25,290 - MarketMakerLoop - INFO - Order 831578542 not filled within 8s. Cancelling and refreshing.
+2025-09-26 21:26:26,994 - MarketMakerLoop - INFO - No significant position. Entering BUY mode.
+2025-09-26 21:26:26,994 - MarketMakerLoop - INFO - Calculated order parameters: side=BUY, quantity=0.02086229, price=951.00950000, reduce_only=False
+2025-09-26 21:26:26,995 - MarketMakerLoop - INFO - Adjusted order: price=951.0, quantity=0.02
+2025-09-26 21:26:26,995 - MarketMakerLoop - INFO - Placing BUY order: 0.02 BNBUSDT @ 951.0 (-0.6010% from mid-price)
+2025-09-26 21:26:26,995 - MarketMakerLoop - INFO - Order details: symbol=BNBUSDT, price=951.0, quantity=0.02, side=BUY, reduceOnly=False
+2025-09-26 21:26:27,672 - MarketMakerLoop - INFO - Order placed successfully: ID=831579733
+2025-09-26 21:26:32,302 - root - INFO - Signal 2 received, initiating shutdown...
+2025-09-26 21:26:32,388 - root - INFO - Shutdown initiated. Cleaning up...
+2025-09-26 21:26:32,626 - BalanceKeepalive - INFO - Balance keepalive task cancelled.
+2025-09-26 21:26:32,626 - BalanceKeepalive - INFO - Balance keepalive task shutting down
+2025-09-26 21:26:32,626 - root - INFO - Performing final cleanup: Cancelling all orders for BNBUSDT.
+2025-09-26 21:26:33,336 - root - INFO - All open orders cancelled. Shutdown complete.

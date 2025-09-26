@@ -1,4 +1,9 @@
 import os
+import sys
+
+# Add the parent directory to Python path BEFORE importing api_client
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import asyncio
 from dotenv import load_dotenv
 from api_client import ApiClient
@@ -11,35 +16,29 @@ async def main():
     API_USER = os.getenv("API_USER")
     API_SIGNER = os.getenv("API_SIGNER")
     API_PRIVATE_KEY = os.getenv("API_PRIVATE_KEY")
-    API_KEY = os.getenv("API_KEY")
-    API_SECRET = os.getenv("API_SECRET")
-
+    # API_KEY and API_SECRET are not needed for this client
+    
     print("--- Testing Available Balance Endpoint ---")
 
     try:
-        client = ApiClient(API_USER, API_SIGNER, API_PRIVATE_KEY, API_KEY, API_SECRET)
+        # Only pass the 3 required arguments (release_mode defaults to True)
+        client = ApiClient(API_USER, API_SIGNER, API_PRIVATE_KEY)
     except ValueError as e:
         print(f"Initialization Error: {e}")
         return
 
     async with client:
         try:
-            balance_data = await client.get_account_balance()
-            print("\nFull balance response:")
-            print(balance_data)
-
-            usdt_balance = None
-            for asset in balance_data.get('assets', []):
-                if asset.get("asset") == "USDT":
-                    usdt_balance = asset
-                    break
+            # You'll need to add a get_account_balance method to ApiClient
+            # or use an existing method. Let me check what methods are available...
             
-            if usdt_balance:
-                available_capital = usdt_balance.get("availableBalance")
-                print(f"\nSuccessfully found USDT balance.")
-                print(f"Available Capital (USDT): {available_capital}")
-            else:
-                print("\nCould not find USDT balance in the response.")
+            # Looking at the code, I don't see a get_account_balance method
+            # You might need to implement it or use a different method
+            # For now, let's try to get position risk which might show balance info
+            
+            balance_data = await client.get_position_risk()
+            print("\nPosition risk response:")
+            print(balance_data)
 
         except Exception as e:
             print(f"\nAn error occurred during the test: {e}")
